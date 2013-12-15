@@ -6,6 +6,5 @@ def isSushu(x):
 	return True
 
 a = [x for x in range(2,100) if isSushu(x)]
-print a
-#for x in a:
-#   print x,
+for x in a:
+   print x,
